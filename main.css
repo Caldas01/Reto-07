@@ -1,0 +1,89 @@
+
+
+
+/* CLIENT TESTIMONIALS SECTION*/
+
+.testimonials{
+    padding: 6rem;
+    text-align: center;
+    background: #fffbf8;
+    Font-size: 18px;
+}
+
+.testimonials h2{
+    color: #a5a5a5;
+    margin-bottom: 40px;
+    letter-spacing: 0.25em;
+    margin-bottom: 3em;
+    font-family: 'Fraunces', serif;
+}
+
+.testimonials-div{
+    display: flex;
+    justify-content: center;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.testimonials-box{
+    padding: 0.5em;
+}
+
+.testimonials-box img{
+    border-radius: 50%;
+    width: 4.5em;
+    margin-bottom: 2em;
+}
+
+
+.testimonials-exp{
+    color: hsl(198, 62%, 26%);
+    margin-bottom: 3em;
+    line-height: 1.5;
+    font-family: 'Barlow', sans-serif;
+}
+
+.nombre-worker{
+    font-size: 22px;
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 0;
+    font-family: 'Fraunces', serif;
+}
+
+
+
+.cargo-worker{
+    font-size: 14px;
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+}
+
+
+
+
+
+/*RESPONSIVE*/
+
+/*Testimonials*/
+
+@media (max-width:415px){
+    .testimonials, .testimonials-div, .testimonials-box{
+        flex-direction: column;
+        padding: 0;
+        margin: 0.5em;
+    }
+
+    .testimonials h2{
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+
+    .testimonials-exp{
+        margin-bottom: 1em;
+        line-height: 1.5;
+    }
+
+    .cargo-worker{
+        margin-bottom: 4em;
+    }
+}
