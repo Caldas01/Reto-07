@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
 
 /* CLIENT TESTIMONIALS SECTION*/
@@ -68,6 +70,8 @@
 footer{
     background: #90d4c5;
     padding:20px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(167, 40%, 24%);
 }
 
 .about ul {
