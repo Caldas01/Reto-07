@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr; 
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+}
+
+div{
+    border: transparent;
+}
+
